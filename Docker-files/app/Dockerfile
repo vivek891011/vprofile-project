@@ -1,4 +1,4 @@
-FROM openjdk:11 As BUILD_CODE
+FROM openjdk:11 As BUILD_IMAGE
 LABEL "Project"="vprofile"
 LABEL "Author"="vivek"
 RUN apt-get update && apt-get install maven -y
